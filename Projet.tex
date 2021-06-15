@@ -1,0 +1,25 @@
+\documentclass[11pt]{report}
+\usepackage[Lenny]{fncychap}
+\usepackage[explicit]{titlesec}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[top=2cm, bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\definecolor{darkblue}{rgb}{0.12,0.47,0.87}
+ 
+\titleformat{\chapter}{\textcolor{darkblue}}
+
+\title{Projet Fin d'étude 1ere version}
+\author{Amini Makhlouf \and Ben Aissa Tinhinane}
+\date{2020/2021}
+
+\begin{document}
+   \maketitle
+   \tableofcontents
+   \part{Etat de l'art}
+   \include{part1/chapitre1}
+   \newpage
+   \include{part1/chapitre2}
+\end{document}
