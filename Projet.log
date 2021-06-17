@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.13)  15 JUN 2021 03:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.13)  18 JUN 2021 00:02
 entering extended mode
 **./Projet.tex
 (Projet.tex
@@ -128,7 +128,30 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen156
 \Gin@req@width=\dimen157
-) (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+)
+(C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip49
+\enit@outerparindent=\dimen158
+\enit@toks=\toks21
+\enit@inbox=\box50
+\enit@count@id=\count269
+\enitdp@description=\count270
+) (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
@@ -190,9 +213,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 y
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen158
-\Hy@linkcounter=\count269
-\Hy@pagecounter=\count270
+\@linkdim=\dimen159
+\Hy@linkcounter=\count271
+\Hy@pagecounter=\count272
  (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2021-06-05 v7.00l Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -210,7 +233,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 y
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count271
+\Hy@SavedSpaceFactor=\count273
  (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2021-06-05 v7.00l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -223,13 +246,13 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count272
+\c@Hy@tempcnt=\count274
 (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen159
+\XeTeXLinkMargin=\dimen160
 
 (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -239,9 +262,9 @@ c.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count273
-\Field@Width=\dimen160
-\Fld@charsize=\dimen161
+\Fld@menulength=\count275
+\Field@Width=\dimen161
+\Fld@charsize=\dimen162
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -256,9 +279,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count274
-\c@Item=\count275
-\c@Hfootnote=\count276
+\Hy@abspage=\count276
+\c@Item=\count277
+\c@Hfootnote=\count278
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -269,8 +292,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count277
-\c@bookmark@seq@number=\count278
+\Fld@listcount=\count279
+\c@bookmark@seq@number=\count280
 
 (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfi
 lecheck.sty
@@ -283,61 +306,65 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip49
+\Hy@SectionHShift=\skip50
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 14.
-
 (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/fncychap\fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
-\RW=\skip50
-\mylen=\skip51
-\myhi=\skip52
-\px=\skip53
-\py=\skip54
-\pyy=\skip55
-\pxx=\skip56
+\RW=\skip51
+\mylen=\skip52
+\myhi=\skip53
+\px=\skip54
+\py=\skip55
+\pyy=\skip56
+\pxx=\skip57
 ) (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.st
 y
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box50
-\beforetitleunit=\skip57
-\aftertitleunit=\skip58
-\ttl@plus=\dimen162
-\ttl@minus=\dimen163
-\ttl@toksa=\toks21
-\titlewidth=\dimen164
-\titlewidthlast=\dimen165
-\titlewidthfirst=\dimen166
+\ttl@box=\box51
+\beforetitleunit=\skip58
+\aftertitleunit=\skip59
+\ttl@plus=\dimen163
+\ttl@minus=\dimen164
+\ttl@toksa=\toks22
+\titlewidth=\dimen165
+\titlewidthlast=\dimen166
+\titlewidthfirst=\dimen167
 )
 (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
 ftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count279
-\l__pdf_internal_box=\box51
+\l__color_backend_stack_int=\count281
+\l__pdf_internal_box=\box52
 ) (Projet.aux (part1/chapitre1.aux) (part1/chapitre2.aux))
 \openout1 = `Projet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Info: Redefining \degres on input line 26.
-LaTeX Info: Redefining \dots on input line 26.
-LaTeX Info: Redefining \up on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Info: Redefining \degres on input line 24.
+LaTeX Info: Redefining \dots on input line 24.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 24.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 24.
+LaTeX Info: Redefining \up on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -377,17 +404,17 @@ LaTeX Info: Redefining \up on input line 26.
 (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count280
-\scratchdimen=\dimen167
-\scratchbox=\box52
-\nofMPsegments=\count281
-\nofMParguments=\count282
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count283
-\MPscratchDim=\dimen168
-\MPnumerator=\count284
-\makeMPintoPDFobject=\count285
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count282
+\scratchdimen=\dimen168
+\scratchbox=\box53
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen169
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks24
 )
 (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
 base.sty
@@ -399,7 +426,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 26.
+Package hyperref Info: Link coloring OFF on input line 24.
 
 (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -411,44 +438,49 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 tlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count286
+\c@section@level=\count288
 )
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
-LaTeX Info: Redefining \nameref on input line 26.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
  (Projet.out) (Projet.out)
 \@outlinefile=\write3
 \openout3 = `Projet.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 28.
+(Font)              <12> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 28.
+(Font)              <8> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 28.
+(Font)              <6> on input line 27.
  [1
 
 {C:/Users/Maxime/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (Projet.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 4.
+)
+\tf@toc=\write4
+\openout4 = `Projet.toc'.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.41 ...ne {2}Le cloud computing :}{25}{chapter.2}
-                                                  % [1
+l.28     \listoffigures
+                        [1
 
-])
-\tf@toc=\write4
-\openout4 = `Projet.toc'.
+] (Projet.lof)
+\tf@lof=\write5
+\openout5 = `Projet.lof'.
 
- [2] [3
+ [2
+
+] [3
 
 ]
 \openout2 = `part1/chapitre1.aux'.
 
-
-(part1/chapitre1.tex
+ (part1/chapitre1.tex
 Chapitre 1.
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
 .
@@ -461,114 +493,237 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
 (C:\Users\Maxime\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(part1/chapitre1/1_intro.tex) [4
+(part1/chapitre1/1_introduction.tex) [4
 
 
-] (part1/chapitre1/2_histo.tex
-<img/fig1_.jpg, id=250, 301.125pt x 229.60782pt>
-File: img/fig1_.jpg Graphic file (type jpg)
-<use img/fig1_.jpg>
-Package pdftex.def Info: img/fig1_.jpg  used on input line 14.
+] (part1/chapitre1/2_histoire.tex
+<img/fig1.jpg, id=211, 301.125pt x 229.60782pt>
+File: img/fig1.jpg Graphic file (type jpg)
+<use img/fig1.jpg>
+Package pdftex.def Info: img/fig1.jpg  used on input line 15.
 (pdftex.def)             Requested size: 240.90031pt x 183.6865pt.
-) [5 <./img/fig1_.jpg>] (part1/chapitre1/3_def.tex
-<img/fig10_.jpg, id=257, 621.82312pt x 364.36125pt>
-File: img/fig10_.jpg Graphic file (type jpg)
-<use img/fig10_.jpg>
-Package pdftex.def Info: img/fig10_.jpg  used on input line 16.
+)
+[5 <./img/fig1.jpg>] (part1/chapitre1/3_definitions.tex
+<img/fig2.jpg, id=218, 621.82312pt x 364.36125pt>
+File: img/fig2.jpg Graphic file (type jpg)
+<use img/fig2.jpg>
+Package pdftex.def Info: img/fig2.jpg  used on input line 16.
 (pdftex.def)             Requested size: 373.09674pt x 218.61842pt.
-) [6 <./img/fig10_.jpg>]
-(part1/chapitre1/4_interets.tex) [7] (part1/chapitre1/5_cont.tex
-Overfull \hbox (9.18185pt too wide) in paragraph at lines 10--11
-[]\T1/cmr/m/n/10.95 En gé-né-ral, il existe
- []
-
-
-Overfull \hbox (5.74046pt too wide) in paragraph at lines 11--12
-[]\T1/cmr/m/n/10.95 Par rap-port aux pro-grès re-la-ti-ve-ment lents
- []
-
-[8]) (part1/chapitre1/6_carac.tex
-<img/fig2_.png, id=276, 249.93375pt x 243.91125pt>
-File: img/fig2_.png Graphic file (type png)
-<use img/fig2_.png>
-Package pdftex.def Info: img/fig2_.png  used on input line 10.
+) [6 <./img/fig2.jpg>]
+(part1/chapitre1/4_interetsBd.tex) [7] (part1/chapitre1/5_contraintesBd.tex
+[8]) (part1/chapitre1/6_caracacteristiquesBd.tex
+<img/fig3.png, id=241, 249.93375pt x 243.91125pt>
+File: img/fig3.png Graphic file (type png)
+<use img/fig3.png>
+Package pdftex.def Info: img/fig3.png  used on input line 10.
 (pdftex.def)             Requested size: 199.94727pt x 195.12926pt.
- [9 <./img/fig2_.png>] [10] [11]
-<img/fig3_.png, id=292, 442.65375pt x 79.04532pt>
-File: img/fig3_.png Graphic file (type png)
-<use img/fig3_.png>
-Package pdftex.def Info: img/fig3_.png  used on input line 74.
+\c@compteur=\count289
+ [9 <./img/fig3.png>] [10]
+[11]
+<img/fig5.png, id=258, 442.65375pt x 79.04532pt>
+File: img/fig5.png Graphic file (type png)
+<use img/fig5.png>
+Package pdftex.def Info: img/fig5.png  used on input line 84.
 (pdftex.def)             Requested size: 354.12346pt x 63.23631pt.
-<img/fig4_.png, id=293, 466.74374pt x 228.10219pt>
-File: img/fig4_.png Graphic file (type png)
-<use img/fig4_.png>
-Package pdftex.def Info: img/fig4_.png  used on input line 82.
+<img/fig6.png, id=259, 466.74374pt x 228.10219pt>
+File: img/fig6.png Graphic file (type png)
+<use img/fig6.png>
+Package pdftex.def Info: img/fig6.png  used on input line 92.
 (pdftex.def)             Requested size: 373.3955pt x 182.48198pt.
- [12 <./img/fig3_.png> <./img/fig4_.png>]
-<img/fig5_.jpg, id=303, 647.41875pt x 351.3125pt>
-File: img/fig5_.jpg Graphic file (type jpg)
-<use img/fig5_.jpg>
-Package pdftex.def Info: img/fig5_.jpg  used on input line 93.
-(pdftex.def)             Requested size: 388.45424pt x 210.78911pt.
-) [13 <./img/fig5_.jpg>]
-(part1/chapitre1/7_choses.tex
+ [12 <./img/fig5.png> <./img/fig6.png>]
+<img/fig4.jpg, id=267, 647.41875pt x 351.3125pt>
+File: img/fig4.jpg Graphic file (type jpg)
+<use img/fig4.jpg>
+Package pdftex.def Info: img/fig4.jpg  used on input line 104.
+(pdftex.def)             Requested size: 323.70857pt x 175.6558pt.
+) (part1/chapitre1/7_duBd.tex
 Overfull \hbox (3.03622pt too wide) in paragraph at lines 1--1
 |[]\T1/cmr/bx/n/14.4 Choses qui viennent du Big Data (Exemples du Big Data) :| 
 
  []
 
-
-Overfull \hbox (3.83438pt too wide) in paragraph at lines 14--15
-[]\T1/cmr/m/n/10.95 récupérez une grande va-riété d'in-for-ma-tions
- []
-
-) [14] (part1/chapitre1/8_sources.tex) [15] (part1/chapitre1/9_metiers.tex
-[16]) [17] (part1/chapitre1/10_thec.tex [18]
-<img/fig6_.png, id=330, 583.9416pt x 301.125pt>
-File: img/fig6_.png Graphic file (type png)
-<use img/fig6_.png>
-Package pdftex.def Info: img/fig6_.png  used on input line 46.
-(pdftex.def)             Requested size: 350.36766pt x 180.67638pt.
- [19 <./img/fig6_.png>]
-<img/fig7_.png, id=338, 301.125pt x 210.7875pt>
-File: img/fig7_.png Graphic file (type png)
-<use img/fig7_.png>
-Package pdftex.def Info: img/fig7_.png  used on input line 64.
-(pdftex.def)             Requested size: 301.12425pt x 210.78699pt.
- [20 <./img/fig7_.png>]
-<img/fig8_.png, id=346, 674.52pt x 316.93407pt>
-File: img/fig8_.png Graphic file (type png)
-<use img/fig8_.png>
-Package pdftex.def Info: img/fig8_.png  used on input line 86.
+) [13 <./img/fig4.jpg>] (part1/chapitre1/8_sourcesBd.tex
+<img/fig11.png, id=272, 859.5312pt x 194.1654pt>
+File: img/fig11.png Graphic file (type png)
+<use img/fig11.png>
+Package pdftex.def Info: img/fig11.png  used on input line 32.
+(pdftex.def)             Requested size: 429.76454pt x 97.08246pt.
+ [14 <./img/fig11.png>] [15]) [16] (part1/chapitre1/9_metiersBd.tex
+\c@compteurM=\count290
+ [17]) [18]
+(part1/chapitre1/10_thecnoBd.tex [19]
+<img/fig12.png, id=301, 1003.75pt x 345.29pt>
+File: img/fig12.png Graphic file (type png)
+<use img/fig12.png>
+Package pdftex.def Info: img/fig12.png  used on input line 37.
+(pdftex.def)             Requested size: 401.49289pt x 138.11354pt.
+ [20 <./img/fig12.png>]
+<img/fig9.png, id=308, 674.52pt x 316.93407pt>
+File: img/fig9.png Graphic file (type png)
+<use img/fig9.png>
+Package pdftex.def Info: img/fig9.png  used on input line 75.
 (pdftex.def)             Requested size: 404.71512pt x 190.1619pt.
- [21 <./img/fig8_.png>]) [22] (part1/chapitre1/11_challenge.tex)
-[23] (part1/chapitre1/12_conclusion.tex)) [24]
+ [21 <./img/fig9.png>]
+<img/fig7.png, id=315, 757.83125pt x 317.185pt>
+File: img/fig7.png Graphic file (type png)
+<use img/fig7.png>
+Package pdftex.def Info: img/fig7.png  used on input line 102.
+(pdftex.def)             Requested size: 303.12714pt x 126.87173pt.
+ [22 <./img/fig7.png (PNG copy)>]
+<img/fig14.jpg, id=320, 1284.8pt x 722.7pt>
+File: img/fig14.jpg Graphic file (type jpg)
+<use img/fig14.jpg>
+Package pdftex.def Info: img/fig14.jpg  used on input line 128.
+(pdftex.def)             Requested size: 256.95544pt x 144.53743pt.
+ [23 <./img/fig14.jpg>]) [24]
+(part1/chapitre1/11_futureBd.tex
+<img/fig13.jpg, id=333, 451.6875pt x 313.17pt>
+File: img/fig13.jpg Graphic file (type jpg)
+<use img/fig13.jpg>
+Package pdftex.def Info: img/fig13.jpg  used on input line 14.
+(pdftex.def)             Requested size: 271.01459pt x 187.90344pt.
+) [25 <./img/fig13.jpg>]
+(part1/chapitre1/12_conclusion.tex)) [26]
 \openout2 = `part1/chapitre2.aux'.
 
  (part1/chapitre2.tex
 Chapitre 2.
-) [25
+(part1/chapitre2/1_introduction.tex) (part1/chapitre2/2_definitions.tex)
+[27
 
+
+
+
+] (part1/chapitre2/7_composants.tex
+<img/fig15.jpg, id=346, 351.3125pt x 245.91875pt>
+File: img/fig15.jpg Graphic file (type jpg)
+<use img/fig15.jpg>
+Package pdftex.def Info: img/fig15.jpg  used on input line 13.
+(pdftex.def)             Requested size: 281.05037pt x 196.73524pt.
+<img/fig16.png, id=347, 434.37282pt x 572.89032pt>
+File: img/fig16.png Graphic file (type png)
+<use img/fig16.png>
+Package pdftex.def Info: img/fig16.png  used on input line 24.
+(pdftex.def)             Requested size: 173.74605pt x 229.15207pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28 <./img/fig15.jpg>]
+<img/fig17.jpg, id=352, 1199.48125pt x 924.45375pt>
+File: img/fig17.jpg Graphic file (type jpg)
+<use img/fig17.jpg>
+Package pdftex.def Info: img/fig17.jpg  used on input line 34.
+(pdftex.def)             Requested size: 239.892pt x 184.88747pt.
+) [29 <./img/fig16.png> <./img/fig17.jpg>]
+(part1/chapitre2/3_utilisation.tex) [30]
+(part1/chapitre2/4_caracteristiques.tex [31]) [32] (part1/chapitre2/5_types.tex
+<img/fig10.png, id=370, 400.49625pt x 246.1697pt>
+File: img/fig10.png Graphic file (type png)
+<use img/fig10.png>
+Package pdftex.def Info: img/fig10.png  used on input line 7.
+(pdftex.def)             Requested size: 280.34546pt x 172.3176pt.
+
+Underfull \hbox (badness 5939) in paragraph at lines 22--23
+\T1/cmr/m/n/10.95 in-for-ma-tique (ser-veurs, ma-chines
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 22--23
+\T1/cmr/m/n/10.95 vir-tuelles, sto-ckage, ré-seaux, sys-
+ []
+
+
+Underfull \hbox (badness 8000) in paragraph at lines 25--26
+[]\T1/cmr/m/n/10.95 Amazon EC2 Elas-tic
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 36--37
+[]\T1/cmr/m/n/10.95 L'expression pla-te-forme en tant
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 36--37
+\T1/cmr/m/n/10.95 que ser-vice (PaaS, Platform-as-a-
+ []
+
+
+Overfull \hbox (21.33394pt too wide) in paragraph at lines 11--44
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]\T1/cmr/m/n/10.95 Google apps avec
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+\T1/cmr/m/n/10.95 Google Docs, Ca-len-
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 56--57
+[]\T1/cmr/m/n/10.95 Facebook, Link-din qui
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 57--58
+\T1/cmr/m/n/10.95 web (Word,Excel, Po-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+[]\T1/cmr/m/n/10.95 Google apps avec
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+\T1/cmr/m/n/10.95 Google Docs, Ca-len-
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 84--85
+[]\T1/cmr/m/n/10.95 Facebook, Link-din qui
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 85--86
+\T1/cmr/m/n/10.95 web (Word,Excel, Po-
+ []
+
+
+Overfull \hbox (4.33394pt too wide) in paragraph at lines 46--89
+[][] 
+ []
+
+) [33 <./img/fig10.png>] [34] (part1/chapitre2/6_stockage.tex) [35]
+(part1/chapitre2/8_conclusion.tex)) [36] (Projet.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [37
 
 
 
 ] (Projet.aux (part1/chapitre1.aux) (part1/chapitre2.aux))
 Package rerunfilecheck Info: File `Projet.out' has not changed.
-(rerunfilecheck)             Checksum: 7B0AD3691CD3515525A57C57A2742811;6308.
+(rerunfilecheck)             Checksum: A8F1FE23D9F501B031B5480DF6CCD94B;6345.
  ) 
 Here is how much of TeX's memory you used:
- 11298 strings out of 478864
- 169032 string characters out of 2848186
- 510705 words of memory out of 3000000
- 28929 multiletter control sequences out of 15000+600000
- 421337 words of font info for 58 fonts, out of 8000000 for 9000
+ 11843 strings out of 478864
+ 179304 string characters out of 2848186
+ 518963 words of memory out of 3000000
+ 29398 multiletter control sequences out of 15000+600000
+ 422023 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,66p,1023b,604s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Maxime\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcb
-x1095.pk> <C:\Users\Maxime\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
-600\ecti1095.pk> <C:\Users\Maxime\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
-/ec/dpi600\ecbi1095.pk> <C:\Users\Maxime\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\eccc1095.pk> <C:\Users\Maxime\AppData\Local\MiKTeX\fonts/pk/l
+ 60i,11n,66p,1008b,615s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Maxime\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
+m1095.pk> <C:\Users\Maxime\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\ecbi1095.pk> <C:\Users\Maxime\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\eccc1095.pk> <C:\Users\Maxime\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecti1095.pk> <C:\Users\Maxime\AppData\Local\MiKTeX\fonts/pk/l
 jfour/jknappen/ec/dpi600\ecbx1440.pk>{C:/Users/Maxime/AppData/Local/Programs/Mi
 KTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\Maxime\AppData\Local\MiKTeX\fonts/p
 k/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Maxime\AppData\Local\MiKTeX\
@@ -579,13 +734,13 @@ AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\
 Maxime\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:
 \Users\Maxime\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.
 pk> <C:\Users\Maxime\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
-rm1728.pk><C:/Users/Maxime/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Users/Maxime/AppData/Local/Programs/MiKTeX/fonts/type1/
-urw/helvetic/uhvr8a.pfb><C:/Users/Maxime/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/urw/times/utmr8a.pfb>
-Output written on Projet.pdf (26 pages, 1105287 bytes).
+rm1728.pk><C:/Users/Maxime/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
+ic/uhvr8a.pfb><C:/Users/Maxime/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
+mes/utmr8a.pfb><C:/Users/Maxime/AppData/Local/Programs/MiKTeX/fonts/type1/urw/z
+apfding/uzdr.pfb>
+Output written on Projet.pdf (38 pages, 2726272 bytes).
 PDF statistics:
- 839 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 334 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 904 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
+ 313 words of extra memory for PDF output out of 10000 (max. 10000000)
 

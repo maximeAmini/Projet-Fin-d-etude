@@ -1,41 +1,39 @@
 \babel@toc {french}{}
-\contentsline {part}{I\hspace {1em}Etat de l'art}{3}{part.1}%
+\contentsline {part}{I\hspace {1em}État de l'art}{3}{part.1}%
 \contentsline {chapter}{\numberline {1}Big Data}{4}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Historique et quelques statistiques sur le Big Data : }{5}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Définitions : }{6}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Intérêts du Big-Data :}{7}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Les contraintes du Big Data :}{8}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Caractéristiques des systèmes Big Data:}{9}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Le Volume:}{10}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}La Variété:}{10}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}La vélocité:}{10}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}La Véracité:}{10}{subsection.1.5.4}%
-\contentsline {subsection}{\numberline {1.5.5}La Valeur:}{10}{subsection.1.5.5}%
-\contentsline {subsection}{\numberline {1.5.6}La Variabilité:}{11}{subsection.1.5.6}%
-\contentsline {subsection}{\numberline {1.5.7}La Validité:}{11}{subsection.1.5.7}%
-\contentsline {subsection}{\numberline {1.5.8}La Volatilité:}{11}{subsection.1.5.8}%
-\contentsline {subsection}{\numberline {1.5.9}La Visualisation:}{12}{subsection.1.5.9}%
-\contentsline {subsection}{\numberline {1.5.10}La Vulnérabilité:}{13}{subsection.1.5.10}%
-\contentsline {section}{\numberline {1.6}Choses qui viennent du Big Data (Exemples du Big Data):}{14}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Les sources du Big Data :}{15}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Les métiers du Big Data:}{16}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}LE CHIEF DATA OFFICER}{16}{subsection.1.8.1}%
-\contentsline {subsection}{\numberline {1.8.2}LE DATA ENGINEER}{16}{subsection.1.8.2}%
-\contentsline {subsection}{\numberline {1.8.3}LE DATA SCIENTIST}{16}{subsection.1.8.3}%
-\contentsline {subsection}{\numberline {1.8.4}L’ARCHITECTE BIG DATA}{16}{subsection.1.8.4}%
-\contentsline {subsection}{\numberline {1.8.5}LE DÉVELOPPEUR BIG DATA}{17}{subsection.1.8.5}%
-\contentsline {subsection}{\numberline {1.8.6}LE GROWTH HACKER}{17}{subsection.1.8.6}%
-\contentsline {subsection}{\numberline {1.8.7}LE DATA MINER}{17}{subsection.1.8.7}%
-\contentsline {subsection}{\numberline {1.8.8}L'ADMINISTRATEUR BIG DATA}{17}{subsection.1.8.8}%
-\contentsline {section}{\numberline {1.9}Les technologies du Big Data:}{18}{section.1.9}%
-\contentsline {subsection}{\numberline {1.9.1}Les infrastructures :}{18}{subsection.1.9.1}%
-\contentsline {subsection}{\numberline {1.9.2}Les technologies de traitements :}{19}{subsection.1.9.2}%
-\contentsline {subsubsection}{HADOOP:}{19}{Item.1}%
-\contentsline {subsubsection}{Map-reduce :}{20}{Item.2}%
-\contentsline {subparagraph}{Exemple d'utilisation de MapReduce:}{21}{figure.1.8}%
-\contentsline {subsubsection}{Les bases de données NoSQL :}{22}{Item.3}%
-\contentsline {subsection}{\numberline {1.9.3}Les technologies de stockage :}{22}{subsection.1.9.3}%
-\contentsline {section}{\numberline {1.10}Challenge et future du Big Data:}{23}{section.1.10}%
-\contentsline {subsection}{\numberline {1.10.1}Les challenge}{23}{subsection.1.10.1}%
-\contentsline {subsection}{\numberline {1.10.2}Le future du Big Data}{23}{subsection.1.10.2}%
-\contentsline {chapter}{\numberline {2}Le cloud computing :}{25}{chapter.2}%
+\contentsline {section}{\numberline {1.6}Choses qui viennent du Big Data (Exemples du Big Data):}{13}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Les sources du Big Data :}{14}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Les données internes ou externes à l'entreprise}{14}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Les sources du Big Data selon leur provenances :}{14}{subsection.1.7.2}%
+\contentsline {subsubsection}{Les médias :}{15}{figure.1.7}%
+\contentsline {subsubsection}{Le Cloud :}{15}{figure.1.7}%
+\contentsline {subsubsection}{Le Web :}{15}{figure.1.7}%
+\contentsline {subsubsection}{L'Internet Des Objets (IoT) :}{15}{figure.1.7}%
+\contentsline {subsubsection}{Les bases de données :}{16}{figure.1.7}%
+\contentsline {section}{\numberline {1.8}Les métiers du Big Data:}{17}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Les technologies du Big Data:}{19}{section.1.9}%
+\contentsline {subsection}{\numberline {1.9.1}Les infrastructures :}{19}{subsection.1.9.1}%
+\contentsline {subsection}{\numberline {1.9.2}Les technologies de traitements :}{20}{subsection.1.9.2}%
+\contentsline {subsubsection}{Map-reduce :}{20}{Item.11}%
+\contentsline {subparagraph}{Exemple d'utilisation de MapReduce:}{21}{Item.11}%
+\contentsline {subsubsection}{HADOOP:}{22}{Item.12}%
+\contentsline {subsubsection}{Les bases de données NoSQL :}{23}{Item.13}%
+\contentsline {subsection}{\numberline {1.9.3}Les technologies de stockage :}{24}{subsection.1.9.3}%
+\contentsline {section}{\numberline {1.10}Le future du Big Data}{25}{section.1.10}%
+\contentsline {chapter}{\numberline {2}Le cloud computing :}{27}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Définitions}{27}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Les composants clés du cloud computing :}{28}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Virtualisation :}{28}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Les Data Center :}{28}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Utilisations du Cloud Computing}{30}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Caractéristiques du Cloud}{31}{section.2.4}%
+\contentsline {section}{\numberline {2.5}inconvénients du Cloud}{31}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Types de services Cloud}{33}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Types et modes de stockage dans le cloud computing :}{35}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Les types de stockage dans le cloud computing : }{35}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Les formats de stockage dans le cloud : }{35}{subsection.2.7.2}%
