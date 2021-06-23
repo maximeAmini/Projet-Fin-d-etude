@@ -14,15 +14,14 @@
 %couleur des titres\\
 \usepackage{titlesec}
 \titleformat*{\section}{\normalfont\Large\bfseries\color[RGB]{91,155,213}}
-\titleformat*{\subsection}{\normalfont\color[RGB]{46, 116, 181}}
+\titleformat*{\subsection}{\normalfont\large\bfseries\color[RGB]{46, 116, 181}}
 \titleformat*{\subsubsection}{\normalfont\color[RGB]{31, 77, 120}}
 %informations sur le document
 \title{Projet Fin d'étude 1ere version}
 \author{Amini Makhlouf \and Ben Aissa Tinhinane}
 \date{2020/2021}
-
 \begin{document}
-	%1ere page
+	%1eres page
     \maketitle
     \tableofcontents
     \listoffigures
@@ -31,8 +30,10 @@
     \part{État de l'art}
     \include{part1/chapitre1}
     \include{part1/chapitre2}
+    \include{part1/chapitre3}
+    \include{part1/chapitre4}
     
     %pour la biblio
-    \bibliographystyle{plain}
 	\bibliography{mabiblio}
+	\bibliographystyle{alpha}
 \end{document}

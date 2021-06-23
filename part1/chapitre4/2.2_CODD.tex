@@ -1,0 +1,20 @@
+\subsection{Les règles CODD :}
+
+Les douze (12) règles de Codd sont un ensemble de règles édictées par Edgar F.Codd afin de définir les caractéristiques que doit présenter un système de gestion de base de données (SGBD) afin d'être considéré comme relationnel (SGBDR). On considère parfois une règle 0, qui stipule que l'intégralité des fonctions du SGBDR doit être accessible par le modèle relationnel.
+
+\begin{enumerate}
+\item \textbf{Unicité :} toutes les informations sur les données sont représentées au niveau logique (valeurs dans des colonnes de tables) et non physique.
+\item \textbf{Garantie d'accès :} les données sont accessibles sans ambiguïté uniquement par la combinaison du nom de la table, de la clef primaire et du nom de la colonne.
+\item \textbf{Traitement des valeurs nulles :} une valeur spéciale doit représenter l'absence de valeur, une information manquante ou une information inapplicable (valeur NULL).
+\item \textbf{Catalogue lui-même relationnel :} la description de la base de données doit être accessible comme les données ordinaires (un dictionnaire des données est enregistré dans la base).
+\item \textbf{Sous langage de données :} un langage doit permettre de définir les données, définir des vues (visions particulières de la base, enregistrées comme des relations), manipuler les données, définir les contraintes d'intégrité, des autorisations et gérer des transactions.
+\item \textbf{Mise à jour des vues :} toutes les vues pouvant théoriquement être mises à jour doivent pouvoir l'être par le système.
+\item \textbf{Insertion, mise à jour, et suppression de haut niveau :} le langage doit comporter des ordres effectuant l'insertion, la mise à jour et la suppression de données, aussi bien pour des lots de tuples issues de plusieurs tables que juste pour un tuple unique issu d'une table unique.
+\item \textbf{Indépendance physique :} indépendance vis à vis de l'implantation physique des données.
+\item \textbf{Indépendance logique :} indépendance vis à vis de l'implantation logique des données (tables, colonnes, etc.).
+\item \textbf{Indépendance d'intégrité :} les contraintes d'intégrité doivent pouvoir être définies dans le langage relationnel et enregistrées dans le dictionnaire des données (catalogue).
+\item \textbf{Indépendance de distribution :} indépendance de la répartition des données sur divers sites.
+\item \textbf{Règle de non subversion :} on ne peut jamais contourner les contraintes (d'intégrité ou de sécurité) imposées par le langage du SGBD en utilisant un langage de programmation de plus bas niveau.
+\end{enumerate}
+
+\textit{\textbf{Remarque :} L'ensemble de ces règles indique la voie à suivre pour les systèmes de gestion de bases de données relationnelles. Elles ne sont jamais totalement implémentées, à cause des difficultés techniques que cela représente.}

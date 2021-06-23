@@ -1,0 +1,18 @@
+\subsection{Les contraintes des SGBDs relationnels (Propriétés ACID) :}
+Selon la théorie des bases de données, les propriétés ACID sont les quatre principaux attributs d'une transaction de données. Il s'agit là d'un des concepts les plus anciens et les plus importants du fonctionnement des bases de données, il spécifie quatre buts à atteindre pour toute transaction. Ces buts sont les suivants :
+
+\begin{enumerate}
+\item \textbf{Atomicity (Atomicité) :} Lorsqu’une transaction est effectuée, toutes les opérations qu’elle comporte doivent être menées à bien : en effet, en cas d’échec d’une seule des opérations, toutes les opérations précédentes doivent être complètement annulées, peu importe le nombre d’opérations déjà réussies. En résumé, une transaction doit s’effectuer complètement ou pas du tout.
+
+\textit{\textbf{Exemple:} une transaction qui comporte 3000 lignes qui doivent être modifiées, si la modification d’une seule des lignes échoue, alors la transaction entière est annulée. L’annulation de la transaction est toute à fait normale, car chaque ligne ayant été modifiée peut dépendre du contexte de modification d’une autre, et toute rupture de ce contexte pourrait engendrer une incohérence des données de la base.}
+
+\item \textbf{Consistancy (Cohérence) :} Avant et après l’exécution d’une transaction, les données d’une base doivent toujours être dans un état cohérent. Si le contenu final d’une base de données contient des incohérences, cela entraînera l’échec et l’annulation de toutes les opérations de la dernière transaction. Le système revient au dernier état cohérent. La cohérence est établie par les règles fonctionnelles.
+
+\textit{\textbf{Exemple :} Un système doit être capable de reconnaître qu'une facture est liée à un client et aux éléments factures. Il doit être capable d'éviter, par exemple, la suppression d'un client s'il existe encore des factures pour ce client, et la suppression d'une facture qui a des éléments associées.}
+
+\item \textbf{Isolation (Isolation) :} La caractéristique d’isolation permet à une transaction de s’exécuter en un mode isolé. En mode isolé, seule la transaction peut voir les données qu’elle est en train de modifier, c’est le système qui garantit aux autres transactions exécutées en parallèle une visibilité sur les données antérieures. Ce fonctionnement est obtenu grâce aux verrous système posés par le SGBD. 
+
+\textit{\textbf{Exemple :} Prenons l’exemple de deux transactions A et B : lorsque celles-ci s’exécutent en même temps, les modifications effectuées par A ne sont ni visibles, ni modifiables par B tant que la transaction A n’est pas terminée et validée.}
+
+\item \textbf{Durability (Durabilité) :} Toutes les transactions sont lancées de manière définitive. Une base de données ne doit pas afficher le succès d’une transaction pour ensuite remettre les données modifiées dans leur état initial. Pour ce faire, toute transaction est sauvegardée dans un fichier journal afin que, dans le cas où un problème survient empêchant sa validation complète, elle puisse être correctement terminée lors de la disponibilité du système.
+\end{enumerate}
