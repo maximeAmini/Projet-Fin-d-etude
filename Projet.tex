@@ -7,6 +7,8 @@
 \usepackage{enumitem}
 \usepackage{pifont}
 \usepackage{xcolor}
+%tableaux
+\usepackage{tabularx}
 %table des matiere clickable
 \usepackage{hyperref}
 %stylisation de nom de chapitre
@@ -23,20 +25,26 @@
 \title{Projet Fin d'étude 1ere version}
 \author{Amini Makhlouf \and Ben Aissa Tinhinane}
 \date{2020/2021}
+
 \begin{document}
 	%1eres page
     \maketitle
     \tableofcontents
     \listoffigures
     
-    %le corps
-    \part{État de l'art}
-    \include{part1/chapitre1}
-    \include{part1/chapitre2}
-    \include{part1/chapitre3}
-    \include{part1/chapitre4}
+    hello exemple \cite{marcia2017smart}
     
-    %pour la biblio
-	\bibliography{mabiblio}
-	\bibliographystyle{alpha}
+    %le corps
+    %\part{État de l'art}
+    %\include{part1/chapitre1}
+    %\include{part1/chapitre2}
+    %\include{part1/chapitre3}
+    %\include{part1/chapitre4}
+    
+    %\part{Conception}
+    %\include{part2/chapitre1}
+  
+  \bibliography{mabiblio}
+    \bibliographystyle{plain}
+
 \end{document}
