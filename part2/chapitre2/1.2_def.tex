@@ -1,0 +1,20 @@
+\section{Apache Hbase}
+
+\subsection{Apache HBase : qu’est-ce que c’est ?}
+
+Apache Hbase est une base de données non relationnelle (NoSQL), reprenant le concept et les fonctionnalités de Google BigTable \footnote{\textbf{Bigtable} est un système de gestion de base de données compressées, haute performance, propriétaire, développé et exploité par Google1. C'est une base de données orientée colonnes, dont se sont inspirés plusieurs projets libres, comme HBase, Cassandra ou Hypertable.}. 
+La différence est que HBase est Open Source. Cette base de données s’exécute généralement sur le système de fichiers distribués Hadoop (HDFS). Elle offre un accès d’écriture et de lecture en temps réel, aléatoire et cohérent, à des tables contenant des milliards de lignes et des millions de colonnes.
+
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.6]{img/part1/4.9}
+    \caption{Logo Hbase}
+\end{figure}
+
+Elle  permet aussi combiner des sources de données reposant sur différentes structures et différents schémas. Il s’agit donc d’un très bon choix pour le stockage de données multi-structurel. Il est aussi possible d’effectuer des requêtes pour un repère temporel spécifique, ce qui permet de réaliser des requêtes ” flashback “\footnote{\textbf{Bigtable}Le principe du FlashBack Query consiste à requêter une table via une clause SELECT + une clause "AS OF" permettant de préciser à quelle date (Time Stamp) ou à quel Numero SCN on souhaiterait voir l'image de la table.}.
+
+Nativement intégrée avec Hadoop, HBase fonctionne avec d’autres moteurs d’accès aux données par le biais de YARN. Son langage de programmation est le Java.
+
+Apache HBase reprend toutes les fonctionnalités de Google BigTable. On retrouve ainsi les filtres Bloom, ou encore les opérations et la compression in-memory. Les tables de cette base de données peuvent servir d’entrée pour les tâches MapReduce dans l’écosystème Hadoop, et peuvent aussi servir de sortie après traitement des données par MapReduce.
+
+Concrètement, HBase est un data store key-value orienté colonne. Il peut donc fonctionner avec toutes les données traitées par Hadoop. Il n’est pas possible de l’utiliser pour remplacer une base de données SQL, mais il est possible d’ajouter une couche SQL à cette data base pour l’intégrer avec les différents outils de Business Intelligence et d’analyse de données.

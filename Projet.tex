@@ -21,6 +21,7 @@
 %style des footnote
 \let\oldfootnote\footnote
 \renewcommand{\footnote}[1]{\oldfootnote{\tiny{#1}}}
+
 %informations sur le document
 \title{Projet Fin d'étude 1ere version}
 \author{Amini Makhlouf \and Ben Aissa Tinhinane}
@@ -30,21 +31,23 @@
 	%1eres page
     \maketitle
     \tableofcontents
-    \listoffigures
-    
-    hello exemple \cite{marcia2017smart}
+    \listoffigures  
     
     %le corps
-    %\part{État de l'art}
+    \part{État de l'art}
     %\include{part1/chapitre1}
     %\include{part1/chapitre2}
     %\include{part1/chapitre3}
     %\include{part1/chapitre4}
     
-    %\part{Conception}
+    \part{Conception}
     %\include{part2/chapitre1}
-  
-  \bibliography{mabiblio}
+    \include{part2/chapitre2}
+    
+    \part{Réalisation}
+    \include{part3/chapitre1}
+     
     \bibliographystyle{plain}
-
+	\bibliography{bibl}
+  
 \end{document}
