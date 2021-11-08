@@ -1,0 +1,43 @@
+\section{L'accès aux données dans Cassandra:}
+
+\subsection{L'écriture:}
+Cassandra est optimisé pour permettre une écriture rapide et hautement disponible des données avec un débit élevé. Pour ce faire, les données sont écrites dans un premier temps dans un journal de commit (pour s'assurer de la durabilité), puis dans une structure en mémoire appelée la Memtable. Une écriture est considérée comme ayant réussi si les deux actions précédentes ont réussi. Cela permet d'avoir peu d'entrées/sorties disque au moment de l'écriture. Ainsi, les données sont mises en mémoire et périodiquement écrites sur le disque dans une structure appelée une SSTable (pour Sorted String Table).
+
+Les Memtables et SSTables sont maintenues par famille de colonnes : les Memtables sont organisées de manière ordonnée par clé de ligne et sont flushées dans les SSTables de manière séquentielle.
+
+À noter également que les SSTables sont immuables, ce qui signifie qu'une ligne peut, typiquement, être stockée dans plusieurs fichiers de SSTables. Ainsi, pour répondre à une requête de lecture, il est nécessaire de combiner toutes les SSTables se trouvant sur le disque pour trouver la valeur d'une ligne. Pour optimiser ce processus, Cassandra utilise une structure en mémoire appelée Bloom Filter : chaque SSTable dispose de son propre Bloom Filter qui est utilisé pour vérifier si la clé d'une ligne existe lors d'une requête.
+
+De plus, en tâche de fond, Cassandra merge périodiquement les SSTables ensemble dans une SSTable d'une taille supérieure. Ce processus est appelé Compaction. Plus précisément, il regroupe les fragments de lignes ensemble, supprime les colonnes qui ont été marquées comme devant être supprimées et reconstruit les index primaires et secondaires. Bien sûr, ce processus a des impacts sur les disk I/O.
+
+Contrairement aux bases de données relationnelles classiques, Cassandra n'offre pas des transactions dites ACID : il n'y a pas de locks ou de dépendances transactionnelles lors d'une mise à jour concurrente de multiples lignes ou de familles de colonnes.
+
+Pour rappel, ACID est l'acronyme de :
+\begin{itemize}[label=\textbullet]
+	\item \textbf{Atomic :} tout ce qu'il y a dans une transaction doit être réussi ou sinon un rollback est effectué ;
+	\item \textbf{Consistent :} une transaction ne peut pas laisser la base de données dans un état incohérent ;
+	\item \textbf{Isolated :} les transactions ne peuvent pas interagir les unes avec les autres ;
+	\item \textbf{Durable :} les transactions effectuées persistent même après une défaillance du serveur.
+\end{itemize}
+
+Pour sa part, Cassandra ne traite que les concepts d'isolation et d'atomicité. En fait, pour être plus précis, une écriture est atomique au niveau des lignes (i.e. l'insertion ou la mise à jour des colonnes d'une ligne donnée est traitée comme une écriture unique). Ainsi, Cassandra ne supporte pas les transactions dans le sens de mise à jour de lignes multiples. De même, il n'y a pas de rollback lorsque l'écriture réussit sur un nœud mais échoue sur les autres (dans ce cas, il n'est possible d'avoir qu'un rapport d'erreur mais pas de rollback).
+
+Cassandra utilise les timestamps pour déterminer la mise à jour la plus récente d'une colonne ; ce timestamp étant fourni par l'application cliente. Ainsi, la donnée avec le dernier timestamp est toujours celle qui prévaut lors d'une requête. C'est pour cela que, si de multiples clients mettent à jour la même donnée de manière concurrente, alors c'est la donnée la plus récente qui sera persistée.
+
+Du côté de la durabilité, toutes les écritures sur un réplica sont enregistrées à la fois en mémoire et dans le journal de commit avant que l'acquittement ne soit émis. Si un échec se produit avant l'écriture sur disque, alors le journal de commit est rejoué du début afin de récupérer les données qui n'ont pas encore été écrites.
+
+\subsection{La lecture:}
+Pour rappel, lorsqu'une requête de lecture d'une ligne est reçue par un nœud, la ligne doit être combinée de toutes les SSTables du nœud qui contiennent les colonnes de la ligne en question ainsi que de toutes les Memtables. Pour optimiser ce processus, Cassandra utilise une structure en mémoire appelée les bloom filter : chaque SSTable dispose d'un bloom filter associé qui est utilisé pour vérifier s'il existe des données dans la ligne avant de faire une recherche (et ainsi de faire des entrées/sorties disque).
+
+\subsection{Insertion et Mise a jour:}
+Plusieurs colonnes peuvent être insérées en même temps. Ainsi, lorsque des colonnes sont insérées ou mises à jour dans une famille de colonnes, l'application cliente précise la clé de ligne pour identifier l'enregistrement à mettre à jour. La clé de la ligne peut donc être vue comme une clé primaire puisqu'elle doit être unique pour chaque ligne dans une famille de colonnes donnée. Cependant, à la différence d'une clé primaire, il est possible d'insérer des données à une clé primaire déjà présente, mais dans ce cas, Cassandra répondra comme une mise à jour (si elle n'existe pas, elle sera créée).
+
+De plus, les colonnes sont écrasées si le timestamp d'une autre version de colonne est plus récent. Il est, cependant, à noter que le timestamp est fourni par le client. Aussi, ces derniers doivent disposer d'une horloge synchronisée par NTP (Network Time Protocol).
+
+\subsection{La suppression:}
+Lorsqu'une ligne ou une colonne est supprimée dans Cassandra, il est important de comprendre les points ci-dessous :
+
+\begin{itemize}[label=\textbullet]
+	\item la suppression de la donnée du disque n'est pas immédiate (pour rappel, une donnée insérée est écrite dans la SSTable qui se trouve sur le disque). En effet, la SSTable étant immuable, un marqueur appelé tombstone est écrit pour renseigner le nouveau statut de la colonne. Les colonnes ainsi marquées persistent pendant un certain laps de temps configurable puis sont réellement supprimées lors du processus decompaction ;
+	\item une colonne supprimée peut réapparaitre si la routine de réparation de nœud n'est pas exécutée. En effet, marquer une colonne d'un tombstone implique qu'un réplica qui était dans un état non atteignable lors de la suppression ne recevra l'information que lorsqu'il sera de nouveau dans un état joignable. Cependant, si un nœud est injoignable plus longtemps que le temps configuré de conservation des tombstones, alors le nœud peut complètement manquer la suppression et répliquer les données supprimées lors de son retour dans le cluster ;
+	\item la clé de ligne pour une ligne supprimée apparait toujours dans la plage de résultats d'une requête. En effet, quand une ligne est supprimée dans Cassandra, ses colonnes correspondantes sont marquées par un tombstone. Ainsi, tant que les données marquées par un tombstone ne sont pas réellement supprimées par le processus de compaction, la ligne reste vide (i.e. sans colonne associée).
+\end{itemize}

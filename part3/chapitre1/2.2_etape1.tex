@@ -1,0 +1,31 @@
+\subsubsection {Étape 01:  Installez Java 8 sur Windows}
+
+\textbf{Télécharger Oracle JDK 8 (Kit de développement Java):}
+
+Le kit de développement Java contient tous les outils et logiciels dont vous avez besoin pour exécuter des applications écrites en Java. C'est un prérequis pour les solutions logicielles telles qu'Apache Cassandra
+
+\begin{enumerate}
+\item Visitez la page de téléchargement officielle d'Oracle et téléchargez le progiciel Oracle JDK 8. \href{https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html}{lien ici}
+
+\item Faites défiler vers le bas et localisez le lien de téléchargement du kit de développement Java SE 8u251 pour Windows x64. Le téléchargement de Java 8 démarre automatiquement après l'inscription.
+
+\item Une fois le téléchargement terminé, double-cliquez sur le fichier exécutable téléchargé. Sélectionnez Suivant sur l'écran d'installation initiale.
+
+\item La section suivante vous permet de sélectionner des fonctionnalités optionnelles et de définir l'emplacement du dossier d'installation. Acceptez les paramètres par défaut et notez le chemin d'accès complet au dossier d'installation $C:/Java/jdk1.8.0_201$. Une fois que vous êtes prêt à procéder à l'installation, cliquez sur Suivant.
+
+\item Le processus d'installation peut prendre plusieurs minutes. Sélectionnez Fermer une fois le processus terminé.
+
+\end{enumerate}
+
+\textbf{Configurer les variables d'environnement pour Java 8:}
+
+Il est essentiel de configurer les variables d'environnement dans Windows et de définir le chemin correct vers le dossier d'installation de Java 8.
+\begin{enumerate}
+\item Accédez à Ce PC > Propriétés .
+\item Sélectionnez Paramètres système avancés.
+\item Cliquez sur le bouton Variables d'environnement… 
+\item Sélectionnez Nouveau dans la section Variable système .
+\item Accédez à $C:/Java/jdk1.8.0_201$ et sélectionnez OK.
+\item Une fois que le chemin correct vers le dossier d'installation JDK 8 a été ajouté à la variable système $JAVA_HOME$ , cliquez sur OK .
+\item Vous avez ajouté avec succès la variable système $JAVA_HOME$ avec le chemin JDK 8 correct à la liste des variables. Sélectionnez OK dans la fenêtre principale Variables d'environnement pour terminer le processus.
+\end{enumerate}

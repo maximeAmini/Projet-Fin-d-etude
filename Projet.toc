@@ -1,30 +1,164 @@
 \babel@toc {french}{}
-\contentsline {part}{I\hspace {1em}État de l'art}{4}{part.1}%
-\contentsline {part}{II\hspace {1em}Conception}{5}{part.2}%
-\contentsline {chapter}{\numberline {1}Hbase}{6}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Apache Hbase}{7}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Apache HBase : qu’est-ce que c’est ?}{7}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Concepts de base: }{8}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Architecture et fonctionnement}{9}{subsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.1.4}Avantage de HBase}{12}{subsection.1.1.4}%
-\contentsline {subsection}{\numberline {1.1.5}Inconvénients de HBase:}{12}{subsection.1.1.5}%
-\contentsline {section}{\numberline {1.2}Conclusion}{13}{section.1.2}%
-\contentsline {part}{III\hspace {1em}Réalisation}{14}{part.3}%
-\contentsline {chapter}{\numberline {2}Choix des outils technologiques}{15}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Hadoop:}{16}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Installation d'Hadoop:}{17}{subsection.2.1.1}%
-\contentsline {subsubsection}{1. Prérequis:}{17}{subsection.2.1.1}%
-\contentsline {subsubsection}{2. Téléchargez les binaires Hadoop.}{18}{figure.2.3}%
-\contentsline {subsubsection}{3. Configuration Hadoop}{18}{figure.2.4}%
-\contentsline {subsubsection}{2. Configuration des variables d'environnement.}{20}{figure.2.9}%
-\contentsline {subsection}{\numberline {2.1.2}Démarrer les différents services Hadoop:}{21}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Hbase:}{23}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Installation d'Hbase:}{23}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Démarrer les différents services Hadoop:}{24}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Langages et outils de développement}{26}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Javascript}{26}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}VueJs}{26}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}NodesJs}{27}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Express Js}{27}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}React Native}{28}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}HTML5 et CSS3}{28}{subsection.2.3.6}%
+\contentsline {part}{I\hspace {1em}État de l'art}{6}{part.1}%
+\contentsline {chapter}{\numberline {1}Big Data}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Historique et quelques statistiques sur le Big Data : }{8}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Définitions : }{9}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Intérêts du Big-Data :}{10}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Les contraintes du Big Data :}{11}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Caractéristiques des systèmes Big Data:}{12}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Choses qui viennent du Big Data (Exemples du Big Data):}{16}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Les sources du Big Data :}{17}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Les données internes ou externes à l'entreprise}{17}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Les sources du Big Data selon leur provenances :}{17}{subsection.1.7.2}%
+\contentsline {subsubsection}{Les médias :}{18}{figure.1.7}%
+\contentsline {subsubsection}{Le Cloud :}{18}{figure.1.7}%
+\contentsline {subsubsection}{Le Web :}{18}{figure.1.7}%
+\contentsline {subsubsection}{L'Internet Des Objets (IoT) :}{18}{figure.1.7}%
+\contentsline {subsubsection}{Les bases de données :}{19}{figure.1.7}%
+\contentsline {section}{\numberline {1.8}Les métiers du Big Data:}{20}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Les technologies du Big Data:}{22}{section.1.9}%
+\contentsline {subsection}{\numberline {1.9.1}Les infrastructures :}{22}{subsection.1.9.1}%
+\contentsline {subsection}{\numberline {1.9.2}Les technologies de traitements :}{23}{subsection.1.9.2}%
+\contentsline {subsubsection}{Map-reduce :}{23}{Item.11}%
+\contentsline {subparagraph}{Exemple d'utilisation de MapReduce:}{24}{Item.11}%
+\contentsline {subsubsection}{HADOOP:}{25}{Item.12}%
+\contentsline {subsubsection}{Les bases de données NoSQL :}{26}{Item.13}%
+\contentsline {subsection}{\numberline {1.9.3}Les technologies de stockage :}{27}{subsection.1.9.3}%
+\contentsline {section}{\numberline {1.10}Le future du Big Data}{28}{section.1.10}%
+\contentsline {chapter}{\numberline {2}L'Internet des Objets (IoT) :}{30}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Définition :}{31}{section.2.1}%
+\contentsline {section}{\numberline {2.2}L’histoire de l’IoT :}{31}{section.2.2}%
+\contentsline {section}{\numberline {2.3}les composantes d'un réseau IoT :}{32}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Les objets connecté:}{32}{subsection.2.3.1}%
+\contentsline {subsubsection}{Exemples d’objets connectés}{33}{subsection.2.3.1}%
+\contentsline {subsubsection}{Les composants d’un objet connecté :}{33}{figure.2.3}%
+\contentsline {subsection}{\numberline {2.3.2}Les réseaux de communication :}{34}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Les plateformes de service IoT:}{35}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Architecture de l’Internet des objets}{36}{section.2.4}%
+\contentsline {section}{\numberline {2.5}La sécurité dans l'Internet des objets}{37}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Internet of Things : des applications pour tous ?}{41}{section.2.6}%
+\contentsline {subsubsection}{1. Particuliers, bâtiments intelligents et sécurité publique}{41}{section.2.6}%
+\contentsline {subsubsection}{2. Hôpitaux, smart cities et entreprises}{41}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Le rôle de l’Internet des objets dans le Big Data}{42}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Le future de l'iot ? (Internet of Everything)}{43}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Caractéristiques de l'IOE :}{43}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Éléments constitutifs de l’IoE:}{43}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}La difference entre l’IOT et l’IOE :}{44}{subsection.2.8.3}%
+\contentsline {chapter}{\numberline {3}Le cloud computing :}{45}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Définitions}{45}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Les composants clés du cloud computing :}{46}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Virtualisation :}{46}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Les Data Center :}{46}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Utilisations du Cloud Computing}{48}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Caractéristiques du Cloud}{49}{section.3.4}%
+\contentsline {section}{\numberline {3.5}inconvénients du Cloud}{49}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Types de services Cloud}{51}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Types et modes de stockage dans le cloud computing :}{53}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Les types de stockage dans le cloud computing : }{53}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Les formats de stockage dans le cloud : }{53}{subsection.3.7.2}%
+\contentsline {chapter}{\numberline {4}Le NoSql :}{55}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Rappel de gestion de base de données relationnelles:}{56}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Définition : }{56}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Les règles CODD :}{57}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Les contraintes des SGBDs relationnels (Propriétés ACID) :}{58}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Limite des bases de données relationnelles :}{59}{subsection.4.1.4}%
+\contentsline {subsubsection}{1. Problème lié à l’application des propriétés ACID en milieu distribué :}{59}{subsection.4.1.4}%
+\contentsline {subsubsection}{2. Pas de schéma de base de données hiérarchique : }{59}{figure.4.2}%
+\contentsline {subsubsection}{3. Problème de requête non optimale dû à l’utilisation des jointures :}{60}{figure.4.2}%
+\contentsline {subsubsection}{4. Problème lié à la gestion des objets hétérogènes: }{60}{figure.4.2}%
+\contentsline {subsubsection}{5. Le partitionnement de données:}{60}{Item.37}%
+\contentsline {subsection}{\numberline {4.1.5}Exemples de bases de données relationnelles}{61}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}Les bases de données NoSQL:}{62}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Définition : }{62}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Théorème de CAP: }{63}{subsection.4.2.2}%
+\contentsline {subsubsection}{Haute disponibilité et tolérance à la partition: (AP)}{63}{figure.4.3}%
+\contentsline {subsubsection}{Cohérence et tolérance à la partition: (CP)}{64}{figure.4.3}%
+\contentsline {subsubsection}{Cohérence et Haute disponibilité (CA):}{64}{figure.4.3}%
+\contentsline {subsection}{\numberline {4.2.3}Les propriétés de BASE : }{64}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Les types de bases de données NoSql :}{65}{subsection.4.2.4}%
+\contentsline {subsubsection}{Les bases de données orientées clé-valeur:}{65}{subsection.4.2.4}%
+\contentsline {subsubsection}{Les bases de données orientées colonnes}{65}{figure.4.5}%
+\contentsline {subsubsection}{Les bases de données orientées documents}{66}{figure.4.6}%
+\contentsline {subsubsection}{Les bases de données orientées graphes}{67}{figure.4.7}%
+\contentsline {subsubsection}{Autres base de données}{67}{figure.4.8}%
+\contentsline {paragraph}{Bases de données d'objets :}{67}{figure.4.8}%
+\contentsline {paragraph}{Bases de données XML :}{67}{figure.4.8}%
+\contentsline {subsection}{\numberline {4.2.5}Les avantages NoSQL : }{68}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Les inconvénients NoSQL : }{68}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Examples BDD NoSql : }{69}{subsection.4.2.7}%
+\contentsline {subsubsection}{BDDs orientés clé-valeur :}{69}{subsection.4.2.7}%
+\contentsline {paragraph}{1. Redis:}{69}{subsection.4.2.7}%
+\contentsline {paragraph}{2. Voldemort:}{70}{figure.4.9}%
+\contentsline {subsubsection}{BDDs orientés colonnes :}{70}{figure.4.10}%
+\contentsline {paragraph}{1. HBASE:}{70}{figure.4.10}%
+\contentsline {paragraph}{2. CASSANDRA:}{71}{figure.4.11}%
+\contentsline {subsubsection}{BDDs orientés documents :}{71}{figure.4.12}%
+\contentsline {paragraph}{1. MONGODB:}{71}{figure.4.12}%
+\contentsline {paragraph}{2. COUCHDB:}{72}{figure.4.13}%
+\contentsline {subsubsection}{BDDs orientés graphes :}{72}{figure.4.13}%
+\contentsline {paragraph}{1. Neo4J:}{72}{figure.4.13}%
+\contentsline {paragraph}{Amazon DynamoDB:}{73}{figure.4.14}%
+\contentsline {section}{\numberline {4.3}Ver le NewSQL la base de données moderne}{74}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}L’architecture NewSQL :}{75}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Les avantages de la solution NewSQL :}{75}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Les limites de la solution NewSQL :}{76}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Résumé :}{76}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Exemples des bases de données NewSQL:}{76}{subsection.4.3.5}%
+\contentsline {chapter}{\numberline {5}Apache Cassandra :}{78}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Apache Cassandra : qu’est-ce que c’est ?}{79}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Historique:}{79}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Les concepts de base:}{80}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Architecture:}{81}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Avantages et Limites:}{82}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Les principaux avantages:}{82}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Les limites:}{82}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}Les cas d’usage:}{82}{section.5.6}%
+\contentsline {section}{\numberline {5.7}L'accès aux données dans Cassandra:}{83}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}L'écriture:}{83}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}La lecture:}{84}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Insertion et Mise a jour:}{84}{subsection.5.7.3}%
+\contentsline {subsection}{\numberline {5.7.4}La suppression:}{84}{subsection.5.7.4}%
+\contentsline {part}{II\hspace {1em}Conception}{85}{part.2}%
+\contentsline {chapter}{\numberline {6}Smart Grid}{86}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Le réseau électrique intelligent Smart Grid}{87}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Définition:}{87}{subsection.6.1.1}%
+\contentsline {subsubsection}{Objectifs}{87}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Passé et présent:}{88}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Fonctionnement:}{89}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Réseau classique VS Réseau électrique intelligent}{90}{subsection.6.1.4}%
+\contentsline {subsection}{\numberline {6.1.5}Enjeux par rapport à l'énergie:}{90}{subsection.6.1.5}%
+\contentsline {subsection}{\numberline {6.1.6}Acteurs majeurs :}{91}{subsection.6.1.6}%
+\contentsline {subsection}{\numberline {6.1.7}Zone de présence ou d'application :}{92}{subsection.6.1.7}%
+\contentsline {subsection}{\numberline {6.1.8}Futur des Smart Grid}{92}{subsection.6.1.8}%
+\contentsline {section}{\numberline {6.2}Le compteur intelligent}{93}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Définition}{93}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Fonctionnement}{94}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Les avantages et les inconvénient}{95}{subsection.6.2.3}%
+\contentsline {subsubsection}{Avantages du compteur intelligent}{95}{subsection.6.2.3}%
+\contentsline {subsubsection}{Ses inconvénients : des craintes plus ou moins fondées ?}{95}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Le Système électrique en Algérie et le Smart Grid}{96}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}SonelGaz:}{96}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Sonelgaz prépare le lancement d'un compteur électrique intelligent:}{97}{subsection.6.3.2}%
+\contentsline {chapter}{\numberline {7}Etude et Conception}{98}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Réflexion sur la modélisation d'un Smart Grid}{99}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Cas normal:}{99}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Cas d'erreurs:}{100}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}La Collecte des données relatives a ce système}{101}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Structuration des données récoltées pour Cassandra:}{102}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Le SQL vs le NoSQL:}{103}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Le modèle entité association:}{103}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Le modèle relationnel:}{103}{subsection.7.4.2}%
+\contentsline {part}{III\hspace {1em}Réalisation}{104}{part.3}%
+\contentsline {chapter}{\numberline {8}Choix des outils technologiques}{105}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Installation de Cassandra}{106}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Dépendances}{106}{subsection.8.1.1}%
+\contentsline {subsubsection}{Étape 01: Installez Java 8 sur Windows}{107}{figure.8.2}%
+\contentsline {subsubsection}{Étape 2 : installer et configurer Python 2.7 sous Windows:}{108}{Item.67}%
+\contentsline {subsubsection}{Étape 3 : Téléchargez et configurez Apache Cassandra:}{109}{Item.78}%
+\contentsline {subsubsection}{Étape 3 : Démarrez Cassandra à partir de Windows CMD:}{111}{Item.89}%
+\contentsline {subsubsection}{Étape 5 : Accédez à Cassandra cqlsh à partir de Windows CMD:}{112}{figure.8.7}%
+\contentsline {section}{\numberline {8.2}Langages et outils de développement}{113}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Javascript}{113}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}vue}{113}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}nodes}{114}{subsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.2.4}express js}{114}{subsection.8.2.4}%

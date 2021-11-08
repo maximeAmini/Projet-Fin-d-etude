@@ -1,0 +1,17 @@
+\section*{Introduction}
+Nous abordons maintenant une question très importante dans le cadre de la mise en œuvre d’une grande base de données : comment modéliser cette dernière pour satisfaire les besoins de l’application? Et plus précisément:
+
+\begin{itemize}[label=\textbullet]
+\item quelle est la structure des données?
+\item Quelles sont les contraintes qui portent sur le contenu de nos tables? 
+\end{itemize}
+
+Cette question est bien connue dans le contexte des bases de données relationnelles. Pour les bases NoSQL, il n’existe pas de méthodologie équivalente. Une bonne (ou mauvaise) raison est d’ailleurs qu’il n’existe pas de modèle normalisé, et que la modélisation doit s’adapter aux caractéristiques de chaque système.
+
+Voyons comment on pourrait modéliser notre base de données avec Cassandra. Notre démarche consiste à:
+\begin{itemize}[label=\textbullet]
+\item Déterminer les « entités » (Clients, Compteur, Capteurs..etc ) pertinentes pour l’application.
+\item Définir une méthode d'identification de chaque entité.
+\item Préserver le lien entre les entités.
+\end{itemize}
+
