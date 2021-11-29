@@ -1,78 +1,70 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {french}{}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces 1 minute d'Internet}}{8}{figure.1.1}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Le Big Data}}{9}{figure.1.2}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Les 3 V.}}{12}{figure.1.3}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Tableau évolution du chiffre d'affaires par région.}}{15}{figure.1.4}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Graphique évolution du chiffre d'affaires par région.}}{15}{figure.1.5}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Les 10 V.}}{16}{figure.1.6}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Les sources du Big Data}}{17}{figure.1.7}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Hadoop.}}{23}{figure.1.8}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Exemple de Word Count.}}{24}{figure.1.9}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Les composants d'Hadoop.}}{25}{figure.1.10}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Bases de données NoSql.}}{26}{figure.1.11}%
-\contentsline {figure}{\numberline {1.12}{\ignorespaces les 10 tendances « Data \& Analystics »}}{28}{figure.1.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces 1 minute d'Internet}}{6}{figure.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Le Big Data}}{7}{figure.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Les 3 V.}}{10}{figure.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Tableau évolution du chiffre d'affaires par région.}}{13}{figure.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Graphique évolution du chiffre d'affaires par région.}}{13}{figure.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Les 10 V.}}{14}{figure.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Les sources du Big Data}}{15}{figure.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Hadoop.}}{21}{figure.1.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Exemple de Word Count.}}{22}{figure.1.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Les composants d'Hadoop.}}{23}{figure.1.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Bases de données NoSql.}}{24}{figure.1.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.12}{\ignorespaces les 10 tendances « Data \& Analystics »}}{26}{figure.1.12}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Internet of Things}}{30}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces composantes d'un réseau IoT}}{32}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Exemples d’objets connectés}}{33}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Exemples de capteurs}}{33}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Réseaux de communication }}{34}{figure.2.5}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Les plateformes de service IoT}}{35}{figure.2.6}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Architecture de l’Internet des objets}}{36}{figure.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Le Smart Grid}}{29}{figure.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Fonctionnement du Smart Grid}}{32}{figure.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Intervention des acteurs dans le fonctionnement du Smart Grid.}}{34}{figure.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Exemple de compteur intelligent}}{36}{figure.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Fonctionnement du compteur intelligent}}{37}{figure.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Logo SonelGaz}}{39}{figure.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Compteur intelligent en Algérie}}{40}{figure.2.7}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces La Virtualisation}}{46}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Exemple de data center (ceux de Facebook et Google)}}{47}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Architecture du data center}}{47}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Services cloud}}{51}{figure.3.4}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Éléments d'une table d'une BDDR.}}{56}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Problème lié aux propriétés ACID en milieu distribué}}{59}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Théorème de CAP}}{63}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces ACID vs BASE}}{64}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces base de donnée orientée clé-valeur}}{65}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces base de donnée orientée colonne}}{66}{figure.4.6}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces base de donnée orientée document}}{66}{figure.4.7}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces base de donnée orientée graphe}}{67}{figure.4.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Logo Redis}}{69}{figure.4.9}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Logo Voldemort}}{70}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Logo HBASE}}{70}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Logo CASSANDRA}}{71}{figure.4.12}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Logo MONGODB}}{71}{figure.4.13}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Logo Neo4J}}{72}{figure.4.14}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Naissance du NewSQL à partir de 3 architectures}}{74}{figure.4.15}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces L'architecture d'une base de données NewSQL populaire NueDB.}}{75}{figure.4.16}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Logo NuoDB.}}{76}{figure.4.17}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Logo VoltDB.}}{76}{figure.4.18}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Logo Clustrix.}}{76}{figure.4.19}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Logo CASSANDRA}}{79}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Les concepts de base}}{80}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Architecture CASSANDRA}}{81}{figure.5.3}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Le Smart Grid}}{86}{figure.6.1}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Fonctionnement du Smart Grid}}{89}{figure.6.2}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Intervention des acteurs dans le fonctionnement du Smart Grid.}}{91}{figure.6.3}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Exemple de compteur intelligent}}{93}{figure.6.4}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Fonctionnement du compteur intelligent}}{94}{figure.6.5}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Logo SonelGaz}}{96}{figure.6.6}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Compteur intelligent en Algérie}}{97}{figure.6.7}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Scénario normal}}{99}{figure.7.1}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Scénario erreur}}{100}{figure.7.2}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Exemple de donnees collectees}}{101}{figure.7.3}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Structuration de donnees sous Cassandra}}{102}{figure.7.4}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Le modèle relationnel}}{103}{figure.7.5}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Technologies utilisé}}{105}{figure.8.1}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Java et Python}}{106}{figure.8.2}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Site de téléchargement de Cassandra}}{109}{figure.8.3}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces le lien de téléchargement miroir}}{109}{figure.8.4}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces contenu du dossier}}{110}{figure.8.5}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces dossier Cassandra bin}}{111}{figure.8.6}%
-\contentsline {figure}{\numberline {8.7}{\ignorespaces le serveur Cassandra}}{111}{figure.8.7}%
-\contentsline {figure}{\numberline {8.8}{\ignorespaces shell Cassandra}}{112}{figure.8.8}%
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Logo JavaScript}}{113}{figure.8.9}%
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Logo VueJs}}{113}{figure.8.10}%
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Logo NodeJs}}{114}{figure.8.11}%
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Logo ExpressJs}}{114}{figure.8.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Technologies utilisé}}{42}{figure.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Java et Python}}{43}{figure.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Site de téléchargement de Cassandra}}{46}{figure.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces le lien de téléchargement miroir}}{46}{figure.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces contenu du dossier}}{47}{figure.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces dossier Cassandra bin}}{48}{figure.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces le serveur Cassandra}}{48}{figure.3.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces shell Cassandra}}{49}{figure.3.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Logo JavaScript}}{50}{figure.3.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Logo VueJs}}{50}{figure.3.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Logo NodeJs}}{51}{figure.3.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Logo ExpressJs}}{51}{figure.3.12}%

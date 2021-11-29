@@ -1,0 +1,606 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{noauthor_adoption_nodate}{article}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Adoption d’une solution {NoSQL} dans l’entreprise}
+      \field{pages}{68}
+      \range{pages}{1}
+      \verb{file}
+      \verb Adoption d’une solution NoSQL dans l’entreprise.pdf:C\:\\Users\\tinab\\Zotero\\storage\\VEQENBWI\\Adoption d’une solution NoSQL dans l’entreprise.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{noauthor_base_2021}{online}{}
+      \field{sortinit}{b}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Que fait {NoSQL} différent?, avantages et inconvénients, types de stockage d’entrepôts de données {NoSQL}, systèmes de gestion de bases de données {NoSQL}}
+      \field{day}{3}
+      \field{langid}{french}
+      \field{month}{3}
+      \field{shorttitle}{base de données {NoSQL}}
+      \field{title}{base de données {NoSQL}: quelles sont ses caractéristiques ?}
+      \field{titleaddon}{Pandora {FMS} Monitoring Blog}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://pandorafms.com/blog/fr/base-de-donnees-nosql/
+      \endverb
+      \verb{url}
+      \verb https://pandorafms.com/blog/fr/base-de-donnees-nosql/
+      \endverb
+    \endentry
+    \entry{benbrahim_express_2020}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a6abf4d08ef95097011176279762a7df}{%
+           family={Benbrahim},
+           familyi={B\bibinitperiod},
+           given={Rayed},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6abf4d08ef95097011176279762a7df}
+      \strng{fullhash}{a6abf4d08ef95097011176279762a7df}
+      \strng{bibnamehash}{a6abf4d08ef95097011176279762a7df}
+      \strng{authorbibnamehash}{a6abf4d08ef95097011176279762a7df}
+      \strng{authornamehash}{a6abf4d08ef95097011176279762a7df}
+      \strng{authorfullhash}{a6abf4d08ef95097011176279762a7df}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Express {JS} est le framework Node le plus populaire pour la réalisation d'api ou d'app web. Découvrez Express {JS} et ses fonctionnalités.}
+      \field{day}{28}
+      \field{langid}{french}
+      \field{month}{4}
+      \field{note}{Section: Programming}
+      \field{shorttitle}{Express {JS}}
+      \field{title}{Express {JS} : tout savoir du framework Node.{JS}}
+      \field{titleaddon}{Practical Programming}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\PJ9GLS2L\\express-js.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://practicalprogramming.fr/express-js
+      \endverb
+      \verb{url}
+      \verb https://practicalprogramming.fr/express-js
+      \endverb
+    \endentry
+    \entry{cano_base_2019}{online}{}
+      \name{author}{1}{}{%
+        {{hash=15651d1ee3d88e328e208a8f0570fdd7}{%
+           family={Cano},
+           familyi={C\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{15651d1ee3d88e328e208a8f0570fdd7}
+      \strng{fullhash}{15651d1ee3d88e328e208a8f0570fdd7}
+      \strng{bibnamehash}{15651d1ee3d88e328e208a8f0570fdd7}
+      \strng{authorbibnamehash}{15651d1ee3d88e328e208a8f0570fdd7}
+      \strng{authornamehash}{15651d1ee3d88e328e208a8f0570fdd7}
+      \strng{authorfullhash}{15651d1ee3d88e328e208a8f0570fdd7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Que fait {NoSQL} différent? Avantages et inconvénients, types de stockage d’entrepôts de données {NoSQL}, systèmes de gestion de bases de données {NoSQL}.}
+      \field{day}{25}
+      \field{langid}{french}
+      \field{month}{6}
+      \field{shorttitle}{Base de données {NoSQL}}
+      \field{title}{Base de données {NoSQL}: quelles sont ses caractéristiques?}
+      \field{titleaddon}{Pandora {FMS} Monitoring Blog}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\Q2QCURVI\\bases-de-donnees-nosql.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://pandorafms.com/blog/fr/bases-de-donnees-nosql/
+      \endverb
+      \verb{url}
+      \verb https://pandorafms.com/blog/fr/bases-de-donnees-nosql/
+      \endverb
+    \endentry
+    \entry{noauthor_comment_nodate}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Un système {IoT} réunit de nombreux acteurs et composants technologiques : de l'objet connecté jusqu'à l'application ou au service.}
+      \field{langid}{french}
+      \field{title}{Comment se compose un système {IoT} ?}
+      \field{titleaddon}{Connectwave}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\8ISNL7KP\\reseaux-et-infrastructures-iot.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.connectwave.fr/techno-appli-iot/iot/reseaux-et-infrastructures-iot/
+      \endverb
+      \verb{url}
+      \verb https://www.connectwave.fr/techno-appli-iot/iot/reseaux-et-infrastructures-iot/
+      \endverb
+    \endentry
+    \entry{noauthor_compteur_nodate}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Un compteur intelligent est une nouvelle génération de compteur gaz et électricité, qui déjà est en cours d'installation dans certaines régions de la France. Du fait que cet appareil communique directement la consommation d'énergie au distributeur, l'inst}
+      \field{langid}{french}
+      \field{shorttitle}{Compteur intelligent}
+      \field{title}{Compteur intelligent : définition, usage et prix - Ooreka}
+      \field{titleaddon}{Ooreka.fr}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\B76A4HZL\\compteur-communicant.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb //installation-electrique.ooreka.fr/astuce/voir/536049/compteur-communicant
+      \endverb
+      \verb{url}
+      \verb //installation-electrique.ooreka.fr/astuce/voir/536049/compteur-communicant
+      \endverb
+    \endentry
+    \entry{firican_10_nodate}{online}{}
+      \name{author}{2}{}{%
+        {{hash=82da0056c8181d65218b260d40bbb856}{%
+           family={Firican},
+           familyi={F\bibinitperiod},
+           given={By\bibnamedelima George},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=f560a1ea5c645d09d49aee9cee903d3a}{%
+           family={February\bibnamedelima 8},
+           familyi={F\bibinitperiod\bibinitdelim 8\bibinitperiod},
+           given={2017},
+           giveni={2\bibinitperiod}}}%
+      }
+      \strng{namehash}{ddd3809baa843679387607fecfde2e5c}
+      \strng{fullhash}{ddd3809baa843679387607fecfde2e5c}
+      \strng{bibnamehash}{ddd3809baa843679387607fecfde2e5c}
+      \strng{authorbibnamehash}{ddd3809baa843679387607fecfde2e5c}
+      \strng{authornamehash}{ddd3809baa843679387607fecfde2e5c}
+      \strng{authorfullhash}{ddd3809baa843679387607fecfde2e5c}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Big data goes beyond volume, variety, and velocity alone. You need to know these 10 characteristics and properties of big data to prepare for both the challenges and advantages of big data initiatives.}
+      \field{title}{The 10 Vs of Big Data}
+      \field{titleaddon}{Transforming Data with Intelligence}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\8TGKNK54\\10-vs-of-big-data.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://tdwi.org/articles/2017/02/08/10-vs-of-big-data.aspx
+      \endverb
+      \verb{url}
+      \verb https://tdwi.org/articles/2017/02/08/10-vs-of-big-data.aspx
+      \endverb
+    \endentry
+    \entry{futura_definition_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e23718b506da0770a65d60f908e449a7}{%
+           family={Futura},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{e23718b506da0770a65d60f908e449a7}
+      \strng{fullhash}{e23718b506da0770a65d60f908e449a7}
+      \strng{bibnamehash}{e23718b506da0770a65d60f908e449a7}
+      \strng{authorbibnamehash}{e23718b506da0770a65d60f908e449a7}
+      \strng{authornamehash}{e23718b506da0770a65d60f908e449a7}
+      \strng{authorfullhash}{e23718b506da0770a65d60f908e449a7}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Définition de L'internet des objets : Selon l’Union internationale des télécommunications, l’Internet des objets ({IdO}) est une « infrastructure mondiale pour la société de l'information, qui...}
+      \field{langid}{french}
+      \field{note}{Section: Internet}
+      \field{title}{Définition {|} Internet des objets - {IdO} - Internet of things - {IOT} {|} Futura Tech}
+      \field{titleaddon}{Futura}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\PSHCHC5N\\internet-internet-objets-15158.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.futura-sciences.com/tech/definitions/internet-internet-objets-15158/
+      \endverb
+      \verb{url}
+      \verb https://www.futura-sciences.com/tech/definitions/internet-internet-objets-15158/
+      \endverb
+    \endentry
+    \entry{hafiane_sonelgaz_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d109ee5b35f8003debc0ebd917949162}{%
+           family={Hafiane},
+           familyi={H\bibinitperiod},
+           given={Badra},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d109ee5b35f8003debc0ebd917949162}
+      \strng{fullhash}{d109ee5b35f8003debc0ebd917949162}
+      \strng{bibnamehash}{d109ee5b35f8003debc0ebd917949162}
+      \strng{authorbibnamehash}{d109ee5b35f8003debc0ebd917949162}
+      \strng{authornamehash}{d109ee5b35f8003debc0ebd917949162}
+      \strng{authorfullhash}{d109ee5b35f8003debc0ebd917949162}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{ALGER}- Le groupe Sonelgaz prépare le lancement, dès l\&\#39;année prochaine, d\&\#39;un compteur électrique \&\#34;intelligent\&\#34; conçu et fabriqué locale...}
+      \field{langid}{french}
+      \field{title}{Sonelgaz prépare le lancement d'un compteur électrique intelligent "made in Algeria"}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.aps.dz/economie/101444-sonelgaz-prepare-le-lancement-d-un-compteur-electrique-intelligent-made-in-algeria
+      \endverb
+      \verb{url}
+      \verb https://www.aps.dz/economie/101444-sonelgaz-prepare-le-lancement-d-un-compteur-electrique-intelligent-made-in-algeria
+      \endverb
+    \endentry
+    \entry{noauthor_install_2020}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Tutorial is jam-packed with screenshots for each step of Cassandra installation on Windows 10. In this ultimate resource, Learn how to download, set up, and install Cassandra on Windows.}
+      \field{day}{8}
+      \field{langid}{american}
+      \field{month}{6}
+      \field{shorttitle}{Install Cassandra on Windows 10}
+      \field{title}{Install Cassandra on Windows 10: Tutorial With Simple Steps}
+      \field{titleaddon}{Knowledge Base by {phoenixNAP}}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\VTHUSCLI\\install-cassandra-on-windows.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://phoenixnap.com/kb/install-cassandra-on-windows
+      \endverb
+      \verb{url}
+      \verb https://phoenixnap.com/kb/install-cassandra-on-windows
+      \endverb
+    \endentry
+    \entry{jvc_les_2020}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a8d51fa7694573b4f6ba9fe32d89e048}{%
+           family={{JVC}},
+           familyi={J\bibinitperiod},
+           given={Juvénal},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8d51fa7694573b4f6ba9fe32d89e048}
+      \strng{fullhash}{a8d51fa7694573b4f6ba9fe32d89e048}
+      \strng{bibnamehash}{a8d51fa7694573b4f6ba9fe32d89e048}
+      \strng{authorbibnamehash}{a8d51fa7694573b4f6ba9fe32d89e048}
+      \strng{authornamehash}{a8d51fa7694573b4f6ba9fe32d89e048}
+      \strng{authorfullhash}{a8d51fa7694573b4f6ba9fe32d89e048}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{les 7 métiers du Big Data les plus demandés par les entreprises en 2019 et les tendances pour 2020 sont les suivants : le Data Engineer, le {DevOps}/Cloud, l'administrateur/integrateur Big Data, l'architecte Big Data, le}
+      \field{day}{14}
+      \field{langid}{french}
+      \field{month}{9}
+      \field{title}{Les 8 métiers porteurs du Big Data en 2021-2022}
+      \field{titleaddon}{Data Transition Numérique}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\F9CAWNQY\\les-7-metiers-porteurs-du-big-data-en-2019-2020.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.data-transitionnumerique.com/les-7-metiers-porteurs-du-big-data-en-2019-2020/
+      \endverb
+      \verb{url}
+      \verb https://www.data-transitionnumerique.com/les-7-metiers-porteurs-du-big-data-en-2019-2020/
+      \endverb
+    \endentry
+    \entry{noauthor_recette_2017}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{COMPRENDRE} l’{INTERNET} {DES} {OBJETS} (1/3) Lorsqu’on n’est pas un « geek », ou technophile, l’Internet des objets peut sembler inaccessible, complexe et...}
+      \field{day}{16}
+      \field{langid}{french}
+      \field{month}{3}
+      \field{note}{Section: Blog}
+      \field{title}{La recette de l’objet connecté}
+      \field{titleaddon}{Qowisio}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\R3XN4TCH\\la-recette-de-lobjet-connecte.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.qowisio.com/la-recette-de-lobjet-connecte/
+      \endverb
+      \verb{url}
+      \verb https://www.qowisio.com/la-recette-de-lobjet-connecte/
+      \endverb
+    \endentry
+    \entry{noauthor_les_2016}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pour piloter son activité, l’entreprise doit enrichir ses données avec celles du Big Data. Tour d’horizon des sources d’information sur lesquelles s’appuyer.}
+      \field{day}{7}
+      \field{langid}{french}
+      \field{month}{3}
+      \field{title}{Les 4 sources du Big Data}
+      \field{titleaddon}{Le blog de la Communication digitale}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\DMXD2A4M\\les-4-sources-du-big-data.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.communication-web.net/2016/03/07/les-4-sources-du-big-data/
+      \endverb
+      \verb{url}
+      \verb https://www.communication-web.net/2016/03/07/les-4-sources-du-big-data/
+      \endverb
+    \endentry
+    \entry{noauthor_les_2019}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Le Big data semble incontournable aujourd’hui pour le progrès d’une entreprise. En effet, il permet de regrouper un nombre important de données qui permettra à une entreprise de mieux comprendre le comportement des clients.}
+      \field{day}{10}
+      \field{langid}{french}
+      \field{month}{12}
+      \field{title}{Les nouveaux enjeux du Big Data}
+      \field{titleaddon}{Fuveau}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\YCZMCEGR\\les-nouveaux-enjeux-du-big-data.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.fuveau.fr/les-nouveaux-enjeux-du-big-data/
+      \endverb
+      \verb{url}
+      \verb https://www.fuveau.fr/les-nouveaux-enjeux-du-big-data/
+      \endverb
+    \endentry
+    \entry{noauthor_quest-ce_nodate-2}{online}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Qu’est-ce que le cloud computing et comment fonctionne-t-il ? Découvrez les avantages du cloud computing. Découvrez comment utiliser les services de cloud computing au quotidien.}
+      \field{langid}{french}
+      \field{shorttitle}{Qu'est-ce que le cloud computing ?}
+      \field{title}{Qu'est-ce que le cloud computing ? Guide du débutant {|} Microsoft Azure}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\3LPP8MIL\\what-is-cloud-computing.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://azure.microsoft.com/fr-fr/overview/what-is-cloud-computing/
+      \endverb
+      \verb{url}
+      \verb https://azure.microsoft.com/fr-fr/overview/what-is-cloud-computing/
+      \endverb
+    \endentry
+    \entry{noauthor_quest-ce_nodate}{online}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Bienvenue dans le cours {JavaScript} pour débutants sur le {MDN}. Dans ce premier article nous donnons une description générale de {JavaScript} en présentant le « pourquoi » et le « comment » du {JavaScript}. L'objectif est que vous compreniez bien son but.}
+      \field{langid}{american}
+      \field{shorttitle}{Qu'est-ce que le {JavaScript} ?}
+      \field{title}{Qu'est-ce que le {JavaScript} ? - Apprendre le développement web {|} {MDN}}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\KDPT6N6A\\What_is_JavaScript.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/fr/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/fr/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+      \endverb
+    \endentry
+    \entry{noauthor_smart_2010}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Les réseaux intelligents ou « smart grids » sont des réseaux d’électricité qui, grâce à des technologies informatiques, ajustent les flux d’électricité entre fournisseurs et consommateurs. Explications.}
+      \field{day}{14}
+      \field{langid}{french}
+      \field{month}{7}
+      \field{shorttitle}{Smart grids (réseaux intelligents)}
+      \field{title}{Smart grids (réseaux intelligents) : définition, applications et enjeux}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\V8CGL72B\\reseau-intelligent-smart-grid.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.connaissancedesenergies.org/fiche-pedagogique/reseau-intelligent-smart-grid
+      \endverb
+      \verb{url}
+      \verb https://www.connaissancedesenergies.org/fiche-pedagogique/reseau-intelligent-smart-grid
+      \endverb
+    \endentry
+    \entry{noauthor_sonelgaz_nodate}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{title}{Sonelgaz}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Sonelgaz:C\:\\Users\\tinab\\Zotero\\storage\\PX4DND5L\\qui-sommes-nous.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sonelgaz.dz/fr/category/qui-sommes-nous
+      \endverb
+      \verb{url}
+      \verb https://www.sonelgaz.dz/fr/category/qui-sommes-nous
+      \endverb
+    \endentry
+    \entry{noauthor_sql_2017}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Apprenez la différence entre les bases de données {SQL} et {SQL}, et comment comprendre ce qu'il faut choisir.}
+      \field{day}{4}
+      \field{langid}{french}
+      \field{month}{8}
+      \field{title}{{SQL} vs le {NoSQL} - Les Différences des bases de données}
+      \field{titleaddon}{Blog officiel Veeam — Nouveautés sur les technologies de virtualisation}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\BP7IKM8J\\sql-vers-le-nosql.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.veeam.com/blog/fr/sql-vers-le-nosql.html
+      \endverb
+      \verb{url}
+      \verb https://www.veeam.com/blog/fr/sql-vers-le-nosql.html
+      \endverb
+    \endentry
+    \entry{noauthor_base_nodate}{online}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeltitlesource}{title}
+      \field{title}{Une base {NoSQL}: Cassandra - Présentation}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://igm.univ-mlv.fr/~dr/XPOSE2010/Cassandra/cassandra.html#3
+      \endverb
+      \verb{url}
+      \verb http://igm.univ-mlv.fr/~dr/XPOSE2010/Cassandra/cassandra.html#3
+      \endverb
+    \endentry
+    \entry{noauthor_vuejs_nodate}{online}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Vue.{JS} est un des frameworks front-end {JS} les plus populaires, destiné à pour créer les interfaces. Il utilise deux éléments clés : le data binding et le {DOM}.}
+      \field{langid}{french}
+      \field{title}{Vue.{JS}, une définition en un clic}
+      \field{titleaddon}{{ZDNet} France}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\tinab\\Zotero\\storage\\PBV5MBH6\\vuejs-une-definition-39928683.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.zdnet.fr/lexique-it/vuejs-une-definition-39928683.htm
+      \endverb
+      \verb{url}
+      \verb https://www.zdnet.fr/lexique-it/vuejs-une-definition-39928683.htm
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{1Minute}
+  \missing{BDHistory}
+  \missing{DataScientest}
+  \missing{Def1}
+  \missing{Def2}
+  \missing{Def3}
+  \missing{fernandez_les_2017}
+  \missing{lebigdata.fr}
+  \missing{noauthor_definition_nodat}
+  \missing{noauthor_quest-ce_nodate-}
+  \missing{ridgeway2018policing}
+\endrefsection
+\endinput
+

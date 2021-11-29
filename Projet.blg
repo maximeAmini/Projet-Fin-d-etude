@@ -1,0 +1,27 @@
+[3] Config.pm:311> INFO - This is Biber 2.16
+[4] Config.pm:314> INFO - Logfile is 'Projet.blg'
+[1077] biber-MSWIN64:340> INFO - === 
+[1407] Biber.pm:415> INFO - Reading 'Projet.bcf'
+[2614] Biber.pm:952> INFO - Found 32 citekeys in bib section 0
+[2791] Biber.pm:4340> INFO - Processing section 0
+[2908] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliographie.bib' for section 0
+[3255] bibtex.pm:1689> INFO - LaTeX decoding ...
+[3649] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliographie.bib'
+[4208] Utils.pm:395> WARN - I didn't find a database entry for 'BDHistory' (section 0)
+[4209] Utils.pm:395> WARN - I didn't find a database entry for 'ridgeway2018policing' (section 0)
+[4209] Utils.pm:395> WARN - I didn't find a database entry for '1Minute' (section 0)
+[4210] Utils.pm:395> WARN - I didn't find a database entry for 'Def1' (section 0)
+[4210] Utils.pm:395> WARN - I didn't find a database entry for 'Def2' (section 0)
+[4210] Utils.pm:395> WARN - I didn't find a database entry for 'Def3' (section 0)
+[4211] Utils.pm:395> WARN - I didn't find a database entry for 'lebigdata.fr' (section 0)
+[4211] Utils.pm:395> WARN - I didn't find a database entry for 'DataScientest' (section 0)
+[4212] Utils.pm:395> WARN - I didn't find a database entry for 'fernandez_les_2017' (section 0)
+[4213] Utils.pm:395> WARN - I didn't find a database entry for 'noauthor_quest-ce_nodate-' (section 0)
+[4214] Utils.pm:395> WARN - I didn't find a database entry for 'noauthor_definition_nodat' (section 0)
+[4460] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4462] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4463] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
+[4463] Biber.pm:4174> INFO - No sort tailoring available for locale 'fr-FR'
+[4642] bbl.pm:654> INFO - Writing 'Projet.bbl' with encoding 'UTF-8'
+[4686] bbl.pm:757> INFO - Output to Projet.bbl
+[4687] Biber.pm:128> INFO - WARNINGS: 11

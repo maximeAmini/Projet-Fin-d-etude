@@ -35,6 +35,8 @@
 \fancyhead[L]{\leftmark}
 \fancyhead[R]{ }
 
+\usepackage{biblatex}
+\addbibresource{bibliographie.bib}
 
 \begin{document}
 	%1eres page
@@ -45,19 +47,46 @@
     %le corps
     \part{État de l'art}
     \include{part1/chapitre1}
-    \include{part1/chapitre2}
-    \include{part1/chapitre3}
-    \include{part1/chapitre4}
-    \include{part1/chapitre5}
+    %\include{part1/chapitre2}
+    %\include{part1/chapitre3}
+    %\include{part1/chapitre4}
+    %\include{part1/chapitre5}
     
     \part{Conception}
     \include{part2/chapitre1}
-    \include{part2/chapitre2}
+    %\include{part2/chapitre2}   
     
     \part{Réalisation}
     \include{part3/chapitre1}
-     
-    \bibliographystyle{plain}
-	\bibliography{bibl}
+    
+    %citer les references
+    \cite{noauthor_les_2016}
+    \cite{firican_10_nodate}
+    \cite{noauthor_les_2019}
+    \cite{jvc_les_2020}
+    \cite{noauthor_recette_2017}
+    \cite{noauthor_comment_nodate}
+    \cite{noauthor_quest-ce_nodate-}
+    \cite{futura_definition_nodate}
+    \cite{noauthor_quest-ce_nodate-2}
+    \cite{noauthor_adoption_nodate}
+    \cite{noauthor_base_2021}
+    \cite{noauthor_sql_2017}
+    \cite{cano_base_2019}
+    \cite{noauthor_base_nodate}
+    \cite{noauthor_smart_2010}
+    \cite{noauthor_compteur_nodate}
+    \cite{hafiane_sonelgaz_nodate}
+    \cite{noauthor_sonelgaz_nodate}
+    \cite{noauthor_install_2020}
+    \cite{noauthor_definition_nodat}
+    \cite{benbrahim_express_2020}
+    \cite{noauthor_vuejs_nodate}
+    \cite{noauthor_quest-ce_nodate}
+    
+
+	\printbibliography
+
+
   
 \end{document}
